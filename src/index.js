@@ -9,10 +9,12 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
 function App() {
+  // Exaple 1
   // const date = new Date();
   // const time = date.toLocaleTimeString();
+  //return <h1>{new Date().toLocaleTimeString()}</h1>;
 
-  return <h1>{new Date().toLocaleTimeString()}</h1>;
+  return <input type="number" min={5} max={10} />
 }
 
 // 5) Show the component on the screen
